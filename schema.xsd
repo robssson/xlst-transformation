@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="ksiegarnia">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="ksiazka" minOccurs="1" maxOccurs="10000"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ksiazka">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="nazwa">
+        <xs:simpleType>
+           <xs:restriction base="xs:string">
+           <xs:minLength value="1"/>
+           <xs:maxLength value="40"/>
+           </xs:restriction>
+           </xs:simpleType>
+         </xs:element>
+        <xs:element name="autor">
+        <xs:simpleType>
+           <xs:restriction base="xs:string">
+           <xs:minLength value="1"/>
+           <xs:maxLength value="40"/>
+           </xs:restriction>
+           </xs:simpleType>
+         </xs:element>
+        <xs:element name="ilosc_stron">
+           <xs:simpleType>
+           <xs:restriction base="xs:integer">
+           <xs:minInclusive value="5"/>
+           <xs:maxInclusive value="2000"/>
+           </xs:restriction>
+           </xs:simpleType>
+         </xs:element>
+        <xs:element name="oprawka">
+        <xs:simpleType>
+        <xs:restriction base="xs:string">
+        <xs:enumeration value="miękka"/>
+        <xs:enumeration value="twarda"/>
+      </xs:restriction>
+      </xs:simpleType>
+      </xs:element>
+        <xs:element name="stan">
+        <xs:simpleType>
+        <xs:restriction base="xs:string">
+        <xs:enumeration value="dostępna"/>
+        <xs:enumeration value="brak"/>
+      </xs:restriction>
+      </xs:simpleType>
+      </xs:element>
+      </xs:sequence>
+      <xs:attribute name="id" type="xs:string" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  </xs:schema>

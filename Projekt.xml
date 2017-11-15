@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="file:///C:/Users/Tomek/Desktop/ProjektXML/transform.xsl"?>
+<?xml-stylesheet type="text/xsl" href="file:///C:/Users/Tomek/Desktop/ProjektXML/transform1.xsl"?>
+<ksiegarnia xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///C:/Users/Tomek/Desktop/ProjektXML/schema.xsd">
+  <ksiazka id="1">
+  <nazwa>Kamizelka</nazwa>
+  <autor>Piotr Morawiecki</autor>
+  <ilosc_stron>100</ilosc_stron>
+  <oprawka>miękka</oprawka>
+  <stan>dostępna</stan>
+  </ksiazka>
+  <ksiazka id="2">
+  <nazwa>Potop</nazwa>
+  <autor>Michal Palonek</autor>
+  <ilosc_stron>111</ilosc_stron>
+  <oprawka>twarda</oprawka>
+  <stan>brak</stan>
+  </ksiazka>
+   <ksiazka id="3">
+  <nazwa>Ogniem i mieczem</nazwa>
+  <autor>Michal Palonek</autor>
+  <ilosc_stron>400</ilosc_stron>
+  <oprawka>twarda</oprawka>
+  <stan>dostępna</stan>
+  </ksiazka>
+   <ksiazka id="4">
+  <nazwa>Obcy</nazwa>
+  <autor>Tomasz Radecki</autor>
+  <ilosc_stron>300</ilosc_stron>
+  <oprawka>twarda</oprawka>
+  <stan>brak</stan>
+  </ksiazka>
+  <ksiazka id="5">
+  <nazwa>Predator</nazwa>
+  <autor>Ziomek z tatuażami</autor>
+  <ilosc_stron>250</ilosc_stron>
+  <oprawka>twarda</oprawka>
+  <stan>brak</stan>
+  </ksiazka>
+  <ksiazka id="6">
+  <nazwa>Szklana pułapka</nazwa>
+  <autor>Jerzy Dudek</autor>
+  <ilosc_stron>250</ilosc_stron>
+  <oprawka>twarda</oprawka>
+  <stan>dostępna</stan>
+  </ksiazka>
+  <ksiazka id="7">
+  <nazwa>Robocop</nazwa>
+  <autor>Janina Morawiecka</autor>
+  <ilosc_stron>250</ilosc_stron>
+  <oprawka>twarda</oprawka>
+  <stan>brak</stan>
+  </ksiazka>
+  <ksiazka id="8">
+  <nazwa>Forest Gump</nazwa>
+  <autor>Tom Hanks</autor>
+  <ilosc_stron>250</ilosc_stron>
+  <oprawka>twarda</oprawka>
+  <stan>dostępna</stan>
+  </ksiazka>
+</ksiegarnia>

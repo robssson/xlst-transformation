@@ -1,0 +1,6 @@
+1. W folderze "temp" znajduj¹ siê pliki, które nale¿y wkleiæ do folderu w którym "tworzy" siê strona html.
+
+GRUPA:
+Tomasz Radecki,
+Micha³ Palonek,
+Piotr Morawiecki
